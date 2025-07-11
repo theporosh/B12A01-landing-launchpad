@@ -197,4 +197,42 @@
             font-size: 97px;
             font-weight: bold;
     }
- 
+ /* footer section */
+
+    .footer-logo{
+      border-radius: 10px;
+      padding: 104px 455px;
+      text-align: center;
+    }
+
+  .logo-name{
+    font-size:100px;
+    font-weight:900;
+    color:#4E47FF;
+    margin-bottom: 8px;
+  }
+
+  .logo-description{
+    font-size: 16px;
+    color: #8987A1;
+    width: 530px;
+    margin: 0 auto;
+    
+  }
+  .dark-2{
+    color: #8987A1;
+  }
+
+  div ul{
+    display: flex;
+  }
+
+  div ul li {
+    list-style: none; 
+    margin: 0 auto;
+  }
+
+  div li a{
+    text-decoration: none;
+    font-size: 16px;
+  }
