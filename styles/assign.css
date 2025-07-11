@@ -29,6 +29,14 @@
     border-radius: 10px;
 }
 
+/* header */
+
+.header{
+   background-image: url('../Assets/Hero-bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
 
 /* nav styles */
 
@@ -72,19 +80,31 @@
     margin-top: 20px;
  }
 
+ main{
+   max-width: 1140px;
+   margin: 0 auto;
+ }
+
 
  /* action section */
+
+ .action{
+   margin-top: 116px;
+ }
 
  
  .action-container{
      display: flex;
      align-items: center;
+     height: 200px;
      justify-content: space-between;
-     margin: 0 159px 0 141px;
+     padding: 62.5px 62.5px;
+     /* margin: 0 159px 0 141px; */
+     
  }
 
  .action-content{
-   max-width: 500px;
+   /* max-width: 500px; */
    padding: 62.5px 62.5px;
  }
 
@@ -92,6 +112,7 @@
     color: rgba(37, 36, 50, 1);
     font-weight: bold;
     font-size: 42px;
+    
  }
 
  .action-sub-title{
@@ -105,4 +126,52 @@
    height: 328px;
    border-radius: 48px;
    }
+ 
+   /* productive user section */
+
+   .productive-title{
+      font-size: 38px;
+      font-weight: bold;
+      color: rgba(37, 36, 50, 1);
+    }
+
+    .productive-users-section{
+      /* max-width: 1140px; */
+      
+      height: 50px 80px;
+      /* box-shadow: 141px 1258px 50px 0px rgba(188, 71, 255, 0.1); */
+      border-radius: 24px;
+      /* margin: 50px 80px; */
+      padding: 50px 80px;
+      height: 300px;
+      text-align: center;
+      margin-top: 116px;
+      background-color: rgba(188, 71, 255, 0.1);
+      
+    }
+
+    .productive-items{
+      display: flex;
+      /* gap: 158px; */
+      
+      justify-content: space-around;
+    }
+
+    .data-percentage{
+      font-weight: bold;
+      font-size: 80px;
+      color: #4E47FF;
+    }
+
+    .data-subtitle{
+      font-weight: 400;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 0px;
+
+    }
+    .productive-data{
+      margin: 0 auto;
+      
+    }
  
