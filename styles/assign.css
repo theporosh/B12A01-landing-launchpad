@@ -19,6 +19,7 @@
     background-color: #FFFFFF;
 }
 
+
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -59,9 +60,8 @@
  /* banner style */
 
  .banner{
-    /* max-width: 905px; */
     margin: 0 auto;
-    }
+  }
 
  .banner-content{
     text-align: center;
@@ -99,12 +99,9 @@
      height: 200px;
      justify-content: space-between;
      padding: 62.5px 62.5px;
-     /* margin: 0 159px 0 141px; */
-     
- }
+  }
 
  .action-content{
-   /* max-width: 500px; */
    padding: 62.5px 62.5px;
  }
 
@@ -236,3 +233,56 @@
     text-decoration: none;
     font-size: 16px;
   }
+
+  /* Users Feedback Section */
+
+  .feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+  }
+  .feedback-sub-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+  }
+
+  .user-comments{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+  }
+
+  .feedback-container{
+    display: flex;
+    gap: 20px;
+  }
+
+  .feedback{
+    padding: 24px;
+    background-color:#F2EDED;
+  }
+
+  .reviewer{
+    display: flex;
+    gap: 250px;
+    padding: 24px 44px;
+  }
+  .name-review{
+      display: grid;
+      align-items: center; 
+      grid-template-columns: 3fr 3fr 3fr;
+      column-gap: 5px;
+  }
+  img {
+  max-width:100%;
+  max-height:100%;
+}
+.text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+}
+
+ 
