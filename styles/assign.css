@@ -59,7 +59,7 @@
  /* banner style */
 
  .banner{
-    max-width: 905px;
+    /* max-width: 905px; */
     margin: 0 auto;
     }
 
@@ -136,24 +136,16 @@
     }
 
     .productive-users-section{
-      /* max-width: 1140px; */
-      
-      height: 50px 80px;
-      /* box-shadow: 141px 1258px 50px 0px rgba(188, 71, 255, 0.1); */
       border-radius: 24px;
-      /* margin: 50px 80px; */
       padding: 50px 80px;
       height: 300px;
       text-align: center;
       margin-top: 116px;
       background-color: rgba(188, 71, 255, 0.1);
-      
-    }
+     }
 
     .productive-items{
       display: flex;
-      /* gap: 158px; */
-      
       justify-content: space-around;
     }
 
@@ -161,6 +153,8 @@
       font-weight: bold;
       font-size: 80px;
       color: #4E47FF;
+      margin-bottom: 0px;
+      margin-top: 40px;
     }
 
     .data-subtitle{
@@ -168,10 +162,39 @@
       font-size: 20px;
       color: rgba(0, 0, 0, 0.5);
       margin-top: 0px;
-
     }
-    .productive-data{
+
+     .productive-data{
       margin: 0 auto;
-      
+    }
+
+    /* section-column-touch */
+
+    .touch{
+      padding: 130px 130px;
+      display: flex;
+      gap: 200px;
+      align-items: center;
+    }
+    .section-column-touch{
+      width: 80%;
+    }
+
+    section input[type="email"], section input[type="text"], section textarea{
+         height: 64px;
+         border-radius: 5px;
+         border-color: rgba(214, 221, 237, 1);
+         background-color: rgba(255, 255, 255, 1);
+         display: block;
+         width: 200%;
+         padding: 10px 20px;
+         margin-bottom: 24px;
+         /* border: none; */
+         font-size: 20px;
+    }
+
+    .section-title{
+            font-size: 97px;
+            font-weight: bold;
     }
  
